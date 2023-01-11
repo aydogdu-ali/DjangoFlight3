@@ -37,6 +37,9 @@ urlpatterns = [
    path("admin/", admin.site.urls),
 
    path("users/",include('users.urls')),
+   
+   path("flight/",include('flightApp.urls')),
+
 
     # Url paths for swagger:
     path("swagger(<format>\.json|\.yaml)",

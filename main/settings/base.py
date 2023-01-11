@@ -41,7 +41,7 @@ INSTALLED_APPS = [
 
     #myapp
     'users',
-
+    'flightApp',
 
 
     #3. PARTY LIB
